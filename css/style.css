@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 50px;
+}
+header .right {
+    display: flex;
+}
+header .right img {
+    width: 100px;
+}
+header .middle {
+}
+header .middle ul {
+    display: flex;
+}
+header .middle ul li {
+    list-style: none;
+    margin-right: 32px;
+}
+header .middle ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;    
+}
+header .left {}
+header .left ul {
+    display: flex;
+}
+header .left ul li {
+    list-style: none;
+    margin-right: 32px;
+}
+header .left ul li a {
+    color: #000;
+    font-size: 14px;
+}
+#spotlight {
+    background-image: url(../images/image.jpg);
+    background-repeat: no-repeat;
+    height: calc(100vh - 100px);
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+#spotlight .text {
+    margin-left: 15%;
+}
+#spotlight h6 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+#spotlight span {}
+#spotlight h4 {
+    margin-bottom: 16px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+#spotlight .bottom {
+    padding-top: 16px;
+}
+#spotlight a.button{
+    background-color:#000;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 12px;
+    margin-right: 8px;
+    padding: 14px 16px;
+    border-radius: 4px;
+}
+#spotlight a.switch{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    border: 1px solid #000;
+    padding: 13px 16px;
+    border-radius: 4px;
+}
+#phones {
+    padding: 50px 100px;
+}
+#phones ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+#phones ul li {
+    text-align: center;
+}
+#phones ul li a {}
+#phones ul li a img {
+    width: 50%;
+}
+#phones ul li a img:hover {
+    transform: scale(1.2, 1.2);
+}
+#phones ul li h6 {}
+
+
